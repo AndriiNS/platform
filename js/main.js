@@ -59,17 +59,14 @@ document.querySelector(".modal").addEventListener("click", function (e) {
 function copyToClipboard() {
   const copyText = document.getElementById("copyInput");
   copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
+  copyText.setSelectionRange(0, 99999);
 
-  // Copy the text
   document.execCommand("copy");
 
-  // Show success message
   const successMessage = document.getElementById("copySuccessMessage");
   successMessage.textContent = "Address copied to clipboard!";
   successMessage.style.display = "block";
 
-  // Hide the message after 2 seconds
   setTimeout(() => {
     successMessage.style.display = "none";
   }, 2000);
