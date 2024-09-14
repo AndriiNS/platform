@@ -267,7 +267,7 @@ body {
   bottom: -150px;
 }
 .unlock {
-  background-image: url(./../img/unlock_bg.jpg);
+  background-image: url(./../img/unlock_bg.webp);
   // background-position: center top;
   background-repeat: no-repeat;
   background-size: 1920px;
@@ -410,7 +410,7 @@ body {
 // #region about +adventages
 .about {
   // .about__content
-  background: url("./../img/about-bg.jpg") center 100px no-repeat;
+  background: url("./../img/about-bg.webp") center 100px no-repeat;
   background-size: cover;
 
   &__content {
@@ -632,7 +632,7 @@ body {
   // .why__content
   position: relative;
   padding-bottom: 270px;
-  background: url("./../img/globe.png"), url("./../img/why-bg.jpg");
+  background: url("./../img/globe.png"), url("./../img/why-bg.webp");
   background-repeat: no-repeat;
   background-position: center top 220px, center;
   // overflow: hidden;
@@ -1220,7 +1220,7 @@ body {
 }
 @media (max-width: 550px) {
   .unlock {
-    background-image: url("./../img/unlock-bg-mobile.png");
+    background-image: url("./../img/unlock-bg-mobile.webp");
     background-size: contain;
   }
   .modal__code {
